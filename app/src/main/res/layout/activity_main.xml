@@ -138,7 +138,7 @@
         android:layout_marginHorizontal="12dp"
         android:layout_marginBottom="26dp"
         app:cardCornerRadius="20dp"
-        android:backgroundTint="@color/primary_color"
+        android:backgroundTint="@android:color/white"
         >
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -152,8 +152,9 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toTopOf="@+id/tvLifeTime"
                 android:text="Tempo médio de vida"
-                android:textColor="@android:color/darker_gray"
+                android:textColor="@color/primary_color"
                 android:layout_marginBottom="4dp"
+                android:textStyle="bold"
                 />
 
             <TextView
@@ -163,7 +164,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toTopOf="@+id/tvAboutLabel"
                 android:text="9 a 13 anos"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/darker_gray"
                 android:layout_marginBottom="12dp"
                 />
 
@@ -174,8 +175,9 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toTopOf="@+id/tvAbout"
                 android:text="Sobre"
-                android:textColor="@android:color/darker_gray"
+                android:textColor="@color/primary_color"
                 android:layout_marginBottom="4dp"
+                android:textStyle="bold"
                 />
 
             <TextView
@@ -186,7 +188,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:text="Pastor-alemão ou lobo-da-alsácia é uma raça canina proveniente da Alemanha. Em sua origem era utilizado como cão de pastoreio de rebanhos. Atualmente é mais utilizado como cão de guarda e cão policial. "
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/darker_gray"
                 />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
