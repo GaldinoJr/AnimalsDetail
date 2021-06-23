@@ -4,18 +4,18 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#00695c</item>
-        <item name="colorPrimaryVariant">#439889</item>
         <item name="colorOnPrimary">@color/primary_color</item>
-        <item name="colorSecondary">#007769</item>
-        <item name="colorSecondaryVariant">#48a697</item>
-        <item name="colorOnSecondary">#ffffff</item>
-        <item name="colorControlNormal">@android:color/white</item>
-        <item name="android:textColorPrimary">@android:color/white</item>
+<!--        <item name="colorPrimary">#00695c</item>-->
+<!--        <item name="colorPrimaryVariant">#439889</item>-->
+<!--        -->
+<!--        <item name="colorSecondary">#007769</item>-->
+<!--        <item name="colorSecondaryVariant">#48a697</item>-->
+<!--        <item name="colorOnSecondary">#ffffff</item>-->
+<!--        <item name="colorControlNormal">@android:color/white</item>-->
+<!--        <item name="android:textColorPrimary">@android:color/white</item>-->
     </style>
 
     <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textSize">28sp</item>
-        <item name="android:textColorPrimary">@android:color/holo_red_dark</item>
     </style>
 </resources>
